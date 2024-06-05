@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/selectImageBtn"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rounded_button"
+            android:fontFamily="sans-serif-medium"
+            android:text="Выбрать изображение"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/selectedImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextDetails"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Детали"
+            android:inputType="text"
+            android:backgroundTint="@color/red"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextCost"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Стоимость"
+            android:inputType="text"
+            android:backgroundTint="@color/red"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextYear"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Год выпуска"
+            android:backgroundTint="@color/red"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextColor"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Цвет"
+            android:backgroundTint="@color/red"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextEngine"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Двигатель"
+            android:backgroundTint="@color/red"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextTax"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Налог"
+            android:backgroundTint="@color/red"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextGearBox"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Коробка передач"
+            android:backgroundTint="@color/red"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextGear"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Привод"
+            android:backgroundTint="@color/red"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextIsNew"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Новый или б/у"
+            android:backgroundTint="@color/red"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/add_car"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:text="Добавить автомобиль"
+            android:background="@drawable/rounded_button"
+            android:fontFamily="sans-serif-medium"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

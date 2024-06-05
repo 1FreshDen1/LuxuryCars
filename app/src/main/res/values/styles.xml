@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomSpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="CustomSpinnerTextStyle" parent="android:TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">10dp</item>
+    </style>
+</resources>
